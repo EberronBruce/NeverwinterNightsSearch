@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		7AE0695C23F2887C0030F3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0695B23F2887C0030F3D9 /* AppDelegate.swift */; };
 		7AE0695E23F2887C0030F3D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0695D23F2887C0030F3D9 /* SceneDelegate.swift */; };
-		7AE0696023F2887C0030F3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0695F23F2887C0030F3D9 /* ViewController.swift */; };
+		7AE0696023F2887C0030F3D9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0695F23F2887C0030F3D9 /* SearchViewController.swift */; };
 		7AE0696323F2887C0030F3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0696123F2887C0030F3D9 /* Main.storyboard */; };
 		7AE0696523F2887F0030F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0696423F2887F0030F3D9 /* Assets.xcassets */; };
 		7AE0696823F2887F0030F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE0696623F2887F0030F3D9 /* LaunchScreen.storyboard */; };
 		7AE0697323F2887F0030F3D9 /* Neverwinter_Nights_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0697223F2887F0030F3D9 /* Neverwinter_Nights_SearchTests.swift */; };
 		7AE0697E23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0697D23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift */; };
+		7AE0699023F29A9A0030F3D9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		7AE0695823F2887B0030F3D9 /* Neverwinter Nights Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neverwinter Nights Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0695B23F2887C0030F3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE0695D23F2887C0030F3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AE0695F23F2887C0030F3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AE0695F23F2887C0030F3D9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7AE0696223F2887C0030F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AE0696423F2887F0030F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE0696723F2887F0030F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		7AE0697923F2887F0030F3D9 /* Neverwinter Nights SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neverwinter Nights SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0697D23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neverwinter_Nights_SearchUITests.swift; sourceTree = "<group>"; };
 		7AE0697F23F288800030F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,10 @@
 		7AE0695A23F2887B0030F3D9 /* Neverwinter Nights Search */ = {
 			isa = PBXGroup;
 			children = (
-				7AE0695B23F2887C0030F3D9 /* AppDelegate.swift */,
-				7AE0695D23F2887C0030F3D9 /* SceneDelegate.swift */,
-				7AE0695F23F2887C0030F3D9 /* ViewController.swift */,
-				7AE0696123F2887C0030F3D9 /* Main.storyboard */,
+				7AE0698D23F292FC0030F3D9 /* Delegates */,
+				7AE0698C23F292DF0030F3D9 /* View Controllers */,
+				7AE0698B23F292CA0030F3D9 /* Views */,
 				7AE0696423F2887F0030F3D9 /* Assets.xcassets */,
-				7AE0696623F2887F0030F3D9 /* LaunchScreen.storyboard */,
 				7AE0696923F2887F0030F3D9 /* Info.plist */,
 			);
 			path = "Neverwinter Nights Search";
@@ -126,6 +126,41 @@
 				7AE0697F23F288800030F3D9 /* Info.plist */,
 			);
 			path = "Neverwinter Nights SearchUITests";
+			sourceTree = "<group>";
+		};
+		7AE0698B23F292CA0030F3D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0698E23F29A6C0030F3D9 /* Table View Cell */,
+				7AE0696123F2887C0030F3D9 /* Main.storyboard */,
+				7AE0696623F2887F0030F3D9 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE0698C23F292DF0030F3D9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0695F23F2887C0030F3D9 /* SearchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7AE0698D23F292FC0030F3D9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0695D23F2887C0030F3D9 /* SceneDelegate.swift */,
+				7AE0695B23F2887C0030F3D9 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7AE0698E23F29A6C0030F3D9 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */,
+			);
+			path = "Table View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE0696023F2887C0030F3D9 /* ViewController.swift in Sources */,
+				7AE0696023F2887C0030F3D9 /* SearchViewController.swift in Sources */,
+				7AE0699023F29A9A0030F3D9 /* SearchTableViewCell.swift in Sources */,
 				7AE0695C23F2887C0030F3D9 /* AppDelegate.swift in Sources */,
 				7AE0695E23F2887C0030F3D9 /* SceneDelegate.swift in Sources */,
 			);
