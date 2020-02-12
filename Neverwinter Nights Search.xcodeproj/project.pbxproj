@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7AE0695823F2887B0030F3D9 /* Neverwinter Nights Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neverwinter Nights Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE0695823F2887B0030F3D9 /* NWN Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NWN Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0695B23F2887C0030F3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE0695D23F2887C0030F3D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7AE0695F23F2887C0030F3D9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		7AE0695923F2887B0030F3D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AE0695823F2887B0030F3D9 /* Neverwinter Nights Search.app */,
+				7AE0695823F2887B0030F3D9 /* NWN Search.app */,
 				7AE0696E23F2887F0030F3D9 /* Neverwinter Nights SearchTests.xctest */,
 				7AE0697923F2887F0030F3D9 /* Neverwinter Nights SearchUITests.xctest */,
 			);
@@ -225,7 +225,7 @@
 			);
 			name = "Neverwinter Nights Search";
 			productName = "Neverwinter Nights Search";
-			productReference = 7AE0695823F2887B0030F3D9 /* Neverwinter Nights Search.app */;
+			productReference = 7AE0695823F2887B0030F3D9 /* NWN Search.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7AE0696D23F2887F0030F3D9 /* Neverwinter Nights SearchTests */ = {
@@ -530,7 +530,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -548,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
