@@ -18,6 +18,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var pvpLabel: UILabel!
     @IBOutlet weak var playersLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var hostLabel: UILabel!
+    @IBOutlet weak var portLabel: UILabel!
     
     var module : Module! = nil
     
@@ -26,11 +28,15 @@ class DetailViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         self.navigationController?.navigationBar.tintColor = .black
-        
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        setupView()
+    }
+    
+    private func setupView() {
+        self.hostLabel.text = "\(module.host ?? NO_HOST) : "
+        self.portLabel.text = module.port
         self.serverNameLabel.text = module.sessionName
         self.passwordProtectLabel.text = module.passworded
         self.moduleNameLabel.text = module.moduleName
@@ -39,22 +45,14 @@ class DetailViewController: UIViewController {
         self.pvpLabel.text = module.pvp
         self.playersLabel.text = "\(module.numberOfCurrentPlayers)/\(module.maxPlayerNumber)"
         self.descriptionLabel.text = module.moduleDescription
+        if module.moduleDescription.isEmpty {
+            self.descriptionLabel.text = NO_DESCRIPTION
+        }
         if module.passworded.isEmpty {
             self.passwordProtectLabel.isHidden = true
         }
         self.title = module.sessionName
     }
     
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

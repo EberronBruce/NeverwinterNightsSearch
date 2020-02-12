@@ -45,3 +45,7 @@ let PVP_PARTY = "Party PVP"
 let PVP_FULL = "Full PVP"
 let SERVER_VAULT = "Servervault"
 let LOCAL_VAULT = "Localvault"
+
+
+let NO_DESCRIPTION = "No Description Available"
+let NO_HOST = "No host"

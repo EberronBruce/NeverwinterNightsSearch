@@ -18,6 +18,8 @@ class DummyViewController: UIViewController, UISplitViewControllerDelegate {
         self.splitViewController?.preferredDisplayMode = .allVisible
         self.extendedLayoutIncludesOpaqueBars = true
         self.navigationController?.navigationBar.tintColor = .black
+        
+        self.navigationController?.popViewController(animated: true)
     }
     
 
