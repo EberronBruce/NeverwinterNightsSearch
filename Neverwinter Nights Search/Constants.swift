@@ -32,3 +32,16 @@ let WEBSITE_BEAMDOG = "http://nwn.beamdog.com"
 let STYLE_BORDER_RADIUS : CGFloat = 5.0
 
 let SEGUE_SHOW_DETAIL = "showDetailSeque"
+let CELL_INFO = "infoCell"
+let HTTP_GET_METHOD = "GET"
+
+let ERROR_UNKNOWN = "Unknown Error"
+let ERROR_NO_DATA = "No data from the server"
+let EROOR_API_CALL = "Errore in making API Call"
+
+let PASSWORD_PROTECTED = "Password Protected"
+let PVP_NO = "No PVP"
+let PVP_PARTY = "Party PVP"
+let PVP_FULL = "Full PVP"
+let SERVER_VAULT = "Servervault"
+let LOCAL_VAULT = "Localvault"

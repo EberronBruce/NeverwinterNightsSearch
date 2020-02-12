@@ -19,13 +19,34 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var playersLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    var module : Module! = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        self.navigationController?.navigationBar.tintColor = .black
+        
+        
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        self.serverNameLabel.text = module.sessionName
+        self.passwordProtectLabel.text = module.passworded
+        self.moduleNameLabel.text = module.moduleName
+        self.levelRangeLabel.text = "\(module.minLevel) to \(module.maxLevel)"
+        self.serverVaultLabel.text = module.serverVault
+        self.pvpLabel.text = module.pvp
+        self.playersLabel.text = "\(module.numberOfCurrentPlayers)/\(module.maxPlayerNumber)"
+        self.descriptionLabel.text = module.moduleDescription
+        if module.passworded.isEmpty {
+            self.passwordProtectLabel.isHidden = true
+        }
+        self.title = module.sessionName
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

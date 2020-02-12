@@ -8,23 +8,18 @@
 
 import UIKit
 
-class DummyViewController: UIViewController {
+class DummyViewController: UIViewController, UISplitViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.splitViewController?.delegate = self
         // Do any additional setup after loading the view.
+        
+        self.splitViewController?.preferredDisplayMode = .allVisible
+        self.extendedLayoutIncludesOpaqueBars = true
+        self.navigationController?.navigationBar.tintColor = .black
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

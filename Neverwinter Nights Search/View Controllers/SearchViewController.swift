@@ -19,7 +19,6 @@ class SearchViewController: UIViewController, UISplitViewControllerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupViewController()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,7 +61,14 @@ class SearchViewController: UIViewController, UISplitViewControllerDelegate {
     func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
         return false
     }
-
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let module = sender as? Module, segue.identifier == SEGUE_SHOW_DETAIL, let detailViewController = segue.destination as? DetailViewController {
+            detailViewController.module = module
+        }
+    }
+    
     
 }
 
@@ -72,7 +78,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "infoCell", for: indexPath) as? SearchTableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: CELL_INFO, for: indexPath) as? SearchTableViewCell {
             if let title = modules[indexPath.row].sessionName{
                 cell.configureCell(title: title, numberText: modules[indexPath.row].numberOfCurrentPlayers)
             }
@@ -81,6 +87,11 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         } else {
             return SearchTableViewCell()
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let module = modules[indexPath.row]
+        self.performSegue(withIdentifier: SEGUE_SHOW_DETAIL, sender: module)
     }
     
     

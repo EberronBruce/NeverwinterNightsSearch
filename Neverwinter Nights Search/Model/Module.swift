@@ -56,9 +56,9 @@ class Module {
         }
     }
     
-    var passwored : String {
+    var passworded : String {
         get {
-            if _passworded {return "Password Protected"}
+            if _passworded {return PASSWORD_PROTECTED}
             return ""
         }
     }
@@ -85,11 +85,11 @@ class Module {
         get {
             switch _pvp {
             case 0:
-                return "No PVP"
+                return PVP_NO
             case 1:
-                return "Party PVP"
+                return PVP_PARTY
             case 2:
-                return "Full PVP"
+                return PVP_FULL
             default:
                 return ""
             }
@@ -98,8 +98,8 @@ class Module {
     
     var serverVault : String {
         get {
-            if _serverVault {return "Servervault"}
-            return "Localvault"
+            if _serverVault {return SERVER_VAULT}
+            return LOCAL_VAULT
         }
     }
     

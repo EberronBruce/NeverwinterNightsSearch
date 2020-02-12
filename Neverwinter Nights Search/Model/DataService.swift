@@ -24,7 +24,7 @@ class DataService {
                 jsonArrayDictionary = try JSONSerialization.jsonObject(with: data!, options:[]) as! [[String : Any]]
                 self.parseJsonArray(jsonArrayDictionary)
             } catch {
-                print("error")
+                print(EROOR_API_CALL)
             }
         }
     }

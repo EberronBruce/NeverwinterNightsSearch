@@ -14,24 +14,19 @@ func getDatafromURL(urlString: String, completionHandler: @escaping webServiceCo
     guard let url = URL(string: urlString) else { return }
     var request = URLRequest(url: url)
     
-    request.httpMethod = "GET"
+    request.httpMethod = HTTP_GET_METHOD
     
     URLSession.shared.dataTask(with: request, completionHandler:  { (data, response, error) -> Void in
-        //print(response)
-        //print(data)
-        //print(error)
-        
         if error != nil {
-            print(error?.localizedDescription ?? "Unknown Error")
+            print(error?.localizedDescription ?? ERROR_UNKNOWN)
             completionHandler(nil, error!)
             return
         }
         DispatchQueue.main.async(execute: { () -> Void in
             if data != nil {
-                print("Data Yeah")
                 completionHandler(data!,nil)
             } else {
-                print("No data from the server")
+                print(ERROR_NO_DATA)
                 completionHandler(nil, nil)
             }
         })
