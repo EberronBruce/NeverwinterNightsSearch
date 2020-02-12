@@ -16,7 +16,7 @@ class SearchTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.cellStyleView.layer.cornerRadius = 5.0
+        self.cellStyleView.layer.cornerRadius = STYLE_BORDER_RADIUS
     }
     
     func configureCell(title text : String, numberText: String) {

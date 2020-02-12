@@ -16,6 +16,13 @@
 		7AE0697323F2887F0030F3D9 /* Neverwinter_Nights_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0697223F2887F0030F3D9 /* Neverwinter_Nights_SearchTests.swift */; };
 		7AE0697E23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0697D23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift */; };
 		7AE0699023F29A9A0030F3D9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */; };
+		7AE0699623F33D9D0030F3D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699523F33D9D0030F3D9 /* Constants.swift */; };
+		7AE0699823F33DBA0030F3D9 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699723F33DB90030F3D9 /* WebServices.swift */; };
+		7AE0699A23F343AA0030F3D9 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699923F343AA0030F3D9 /* Module.swift */; };
+		7AE0699C23F370F70030F3D9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699B23F370F70030F3D9 /* DataService.swift */; };
+		7AE0699E23F3D4CB0030F3D9 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699D23F3D4CB0030F3D9 /* CreditsViewController.swift */; };
+		7AE069A023F3E5B00030F3D9 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0699F23F3E5B00030F3D9 /* DummyViewController.swift */; };
+		7AE069E023F3F02C0030F3D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE069DF23F3F02C0030F3D9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		7AE0697D23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neverwinter_Nights_SearchUITests.swift; sourceTree = "<group>"; };
 		7AE0697F23F288800030F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		7AE0699523F33D9D0030F3D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7AE0699723F33DB90030F3D9 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		7AE0699923F343AA0030F3D9 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		7AE0699B23F370F70030F3D9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7AE0699D23F3D4CB0030F3D9 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		7AE0699F23F3E5B00030F3D9 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		7AE069DF23F3F02C0030F3D9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +115,12 @@
 		7AE0695A23F2887B0030F3D9 /* Neverwinter Nights Search */ = {
 			isa = PBXGroup;
 			children = (
+				7AE0699123F33D340030F3D9 /* Model */,
 				7AE0698D23F292FC0030F3D9 /* Delegates */,
 				7AE0698C23F292DF0030F3D9 /* View Controllers */,
 				7AE0698B23F292CA0030F3D9 /* Views */,
-				7AE0696423F2887F0030F3D9 /* Assets.xcassets */,
-				7AE0696923F2887F0030F3D9 /* Info.plist */,
+				7AE0699423F33D710030F3D9 /* Assets */,
+				7AE0699223F33D480030F3D9 /* Helpers */,
 			);
 			path = "Neverwinter Nights Search";
 			sourceTree = "<group>";
@@ -142,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				7AE0695F23F2887C0030F3D9 /* SearchViewController.swift */,
+				7AE0699D23F3D4CB0030F3D9 /* CreditsViewController.swift */,
+				7AE0699F23F3E5B00030F3D9 /* DummyViewController.swift */,
+				7AE069DF23F3F02C0030F3D9 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -161,6 +179,33 @@
 				7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */,
 			);
 			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		7AE0699123F33D340030F3D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0699923F343AA0030F3D9 /* Module.swift */,
+				7AE0699B23F370F70030F3D9 /* DataService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AE0699223F33D480030F3D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0699523F33D9D0030F3D9 /* Constants.swift */,
+				7AE0699723F33DB90030F3D9 /* WebServices.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7AE0699423F33D710030F3D9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0696923F2887F0030F3D9 /* Info.plist */,
+				7AE0696423F2887F0030F3D9 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE069E023F3F02C0030F3D9 /* DetailViewController.swift in Sources */,
+				7AE0699623F33D9D0030F3D9 /* Constants.swift in Sources */,
 				7AE0696023F2887C0030F3D9 /* SearchViewController.swift in Sources */,
+				7AE0699823F33DBA0030F3D9 /* WebServices.swift in Sources */,
+				7AE069A023F3E5B00030F3D9 /* DummyViewController.swift in Sources */,
 				7AE0699023F29A9A0030F3D9 /* SearchTableViewCell.swift in Sources */,
+				7AE0699E23F3D4CB0030F3D9 /* CreditsViewController.swift in Sources */,
+				7AE0699A23F343AA0030F3D9 /* Module.swift in Sources */,
 				7AE0695C23F2887C0030F3D9 /* AppDelegate.swift in Sources */,
 				7AE0695E23F2887C0030F3D9 /* SceneDelegate.swift in Sources */,
+				7AE0699C23F370F70030F3D9 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
