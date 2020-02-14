@@ -21,8 +21,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="-55" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-ml-xs6">
                                 <rect key="frame" x="0.0" y="330.66666666666669" width="414" height="235.00000000000006"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Neverwinter Nights" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qBZ-oQ-0VB">
-                                        <rect key="frame" x="12.666666666666657" y="0.0" width="389" height="115"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="NW Nights" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qBZ-oQ-0VB">
+                                        <rect key="frame" x="74.666666666666686" y="0.0" width="265" height="115"/>
                                         <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="34"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
