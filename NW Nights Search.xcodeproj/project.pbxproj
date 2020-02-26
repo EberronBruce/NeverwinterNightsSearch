@@ -530,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.com.redravencomputing.Neverwinter-Nights-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
 				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,7 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.com.redravencomputing.Neverwinter-Nights-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
 				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
