@@ -51,10 +51,10 @@
 		7AE0696423F2887F0030F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE0696723F2887F0030F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AE0696923F2887F0030F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AE0696E23F2887F0030F3D9 /* Neverwinter Nights SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neverwinter Nights SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE0696E23F2887F0030F3D9 /* NW Nights SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NW Nights SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0697223F2887F0030F3D9 /* Neverwinter_Nights_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neverwinter_Nights_SearchTests.swift; sourceTree = "<group>"; };
 		7AE0697423F2887F0030F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AE0697923F2887F0030F3D9 /* Neverwinter Nights SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neverwinter Nights SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE0697923F2887F0030F3D9 /* NW Nights SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NW Nights SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0697D23F288800030F3D9 /* Neverwinter_Nights_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neverwinter_Nights_SearchUITests.swift; sourceTree = "<group>"; };
 		7AE0697F23F288800030F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE0698F23F29A9A0030F3D9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		7AE0694F23F2887B0030F3D9 = {
 			isa = PBXGroup;
 			children = (
-				7AE0695A23F2887B0030F3D9 /* Neverwinter Nights Search */,
+				7AE0695A23F2887B0030F3D9 /* NWN Search */,
 				7AE0697123F2887F0030F3D9 /* Neverwinter Nights SearchTests */,
 				7AE0697C23F288800030F3D9 /* Neverwinter Nights SearchUITests */,
 				7AE0695923F2887B0030F3D9 /* Products */,
@@ -106,13 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				7AE0695823F2887B0030F3D9 /* NWN Search.app */,
-				7AE0696E23F2887F0030F3D9 /* Neverwinter Nights SearchTests.xctest */,
-				7AE0697923F2887F0030F3D9 /* Neverwinter Nights SearchUITests.xctest */,
+				7AE0696E23F2887F0030F3D9 /* NW Nights SearchTests.xctest */,
+				7AE0697923F2887F0030F3D9 /* NW Nights SearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AE0695A23F2887B0030F3D9 /* Neverwinter Nights Search */ = {
+		7AE0695A23F2887B0030F3D9 /* NWN Search */ = {
 			isa = PBXGroup;
 			children = (
 				7AE0699123F33D340030F3D9 /* Model */,
@@ -122,7 +122,7 @@
 				7AE0699423F33D710030F3D9 /* Assets */,
 				7AE0699223F33D480030F3D9 /* Helpers */,
 			);
-			path = "Neverwinter Nights Search";
+			path = "NWN Search";
 			sourceTree = "<group>";
 		};
 		7AE0697123F2887F0030F3D9 /* Neverwinter Nights SearchTests */ = {
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AE0695723F2887B0030F3D9 /* Neverwinter Nights Search */ = {
+		7AE0695723F2887B0030F3D9 /* NW Nights Search */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AE0698223F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights Search" */;
+			buildConfigurationList = 7AE0698223F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights Search" */;
 			buildPhases = (
 				7AE0695423F2887B0030F3D9 /* Sources */,
 				7AE0695523F2887B0030F3D9 /* Frameworks */,
@@ -223,14 +223,14 @@
 			);
 			dependencies = (
 			);
-			name = "Neverwinter Nights Search";
+			name = "NW Nights Search";
 			productName = "Neverwinter Nights Search";
 			productReference = 7AE0695823F2887B0030F3D9 /* NWN Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AE0696D23F2887F0030F3D9 /* Neverwinter Nights SearchTests */ = {
+		7AE0696D23F2887F0030F3D9 /* NW Nights SearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AE0698523F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights SearchTests" */;
+			buildConfigurationList = 7AE0698523F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights SearchTests" */;
 			buildPhases = (
 				7AE0696A23F2887F0030F3D9 /* Sources */,
 				7AE0696B23F2887F0030F3D9 /* Frameworks */,
@@ -241,14 +241,14 @@
 			dependencies = (
 				7AE0697023F2887F0030F3D9 /* PBXTargetDependency */,
 			);
-			name = "Neverwinter Nights SearchTests";
+			name = "NW Nights SearchTests";
 			productName = "Neverwinter Nights SearchTests";
-			productReference = 7AE0696E23F2887F0030F3D9 /* Neverwinter Nights SearchTests.xctest */;
+			productReference = 7AE0696E23F2887F0030F3D9 /* NW Nights SearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7AE0697823F2887F0030F3D9 /* Neverwinter Nights SearchUITests */ = {
+		7AE0697823F2887F0030F3D9 /* NW Nights SearchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AE0698823F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights SearchUITests" */;
+			buildConfigurationList = 7AE0698823F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights SearchUITests" */;
 			buildPhases = (
 				7AE0697523F2887F0030F3D9 /* Sources */,
 				7AE0697623F2887F0030F3D9 /* Frameworks */,
@@ -259,9 +259,9 @@
 			dependencies = (
 				7AE0697B23F288800030F3D9 /* PBXTargetDependency */,
 			);
-			name = "Neverwinter Nights SearchUITests";
+			name = "NW Nights SearchUITests";
 			productName = "Neverwinter Nights SearchUITests";
-			productReference = 7AE0697923F2887F0030F3D9 /* Neverwinter Nights SearchUITests.xctest */;
+			productReference = 7AE0697923F2887F0030F3D9 /* NW Nights SearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -287,7 +287,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AE0695323F2887B0030F3D9 /* Build configuration list for PBXProject "Neverwinter Nights Search" */;
+			buildConfigurationList = 7AE0695323F2887B0030F3D9 /* Build configuration list for PBXProject "NW Nights Search" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -300,9 +300,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AE0695723F2887B0030F3D9 /* Neverwinter Nights Search */,
-				7AE0696D23F2887F0030F3D9 /* Neverwinter Nights SearchTests */,
-				7AE0697823F2887F0030F3D9 /* Neverwinter Nights SearchUITests */,
+				7AE0695723F2887B0030F3D9 /* NW Nights Search */,
+				7AE0696D23F2887F0030F3D9 /* NW Nights SearchTests */,
+				7AE0697823F2887F0030F3D9 /* NW Nights SearchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,12 +374,12 @@
 /* Begin PBXTargetDependency section */
 		7AE0697023F2887F0030F3D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AE0695723F2887B0030F3D9 /* Neverwinter Nights Search */;
+			target = 7AE0695723F2887B0030F3D9 /* NW Nights Search */;
 			targetProxy = 7AE0696F23F2887F0030F3D9 /* PBXContainerItemProxy */;
 		};
 		7AE0697B23F288800030F3D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AE0695723F2887B0030F3D9 /* Neverwinter Nights Search */;
+			target = 7AE0695723F2887B0030F3D9 /* NW Nights Search */;
 			targetProxy = 7AE0697A23F288800030F3D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -523,13 +523,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = V3GFNATBC5;
-				INFOPLIST_FILE = "Neverwinter Nights Search/Info.plist";
+				INFOPLIST_FILE = "NWN Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.com.redravencomputing.Neverwinter-Nights-Search";
 				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,13 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = V3GFNATBC5;
-				INFOPLIST_FILE = "Neverwinter Nights Search/Info.plist";
+				INFOPLIST_FILE = "NWN Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.Neverwinter-Nights-Search";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redravencomputing.com.redravencomputing.Neverwinter-Nights-Search";
 				PRODUCT_NAME = "NWN Search";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,7 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neverwinter Nights Search.app/Neverwinter Nights Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NW Nights Search.app/NW Nights Search";
 			};
 			name = Debug;
 		};
@@ -594,7 +596,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neverwinter Nights Search.app/Neverwinter Nights Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NW Nights Search.app/NW Nights Search";
 			};
 			name = Release;
 		};
@@ -641,7 +643,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AE0695323F2887B0030F3D9 /* Build configuration list for PBXProject "Neverwinter Nights Search" */ = {
+		7AE0695323F2887B0030F3D9 /* Build configuration list for PBXProject "NW Nights Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AE0698023F288800030F3D9 /* Debug */,
@@ -650,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AE0698223F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights Search" */ = {
+		7AE0698223F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AE0698323F288800030F3D9 /* Debug */,
@@ -659,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AE0698523F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights SearchTests" */ = {
+		7AE0698523F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights SearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AE0698623F288800030F3D9 /* Debug */,
@@ -668,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AE0698823F288800030F3D9 /* Build configuration list for PBXNativeTarget "Neverwinter Nights SearchUITests" */ = {
+		7AE0698823F288800030F3D9 /* Build configuration list for PBXNativeTarget "NW Nights SearchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AE0698923F288800030F3D9 /* Debug */,
